@@ -73,7 +73,7 @@ To add a new `MyStruct` to the contract, use the following transaction:
 import MyStructContract from 0x08 
 
 transaction(id: UInt64, name: String) {
-    prepare() {
+    prepare(account: &Account) {
         
     }
 

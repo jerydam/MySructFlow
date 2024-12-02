@@ -1,7 +1,7 @@
 import MyStructContract from 0x08 
 
 transaction(id: UInt64, name: String) {
-    prepare() {
+    prepare(account: &Account) {
         
     }
 
